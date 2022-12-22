@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Placar tênis de mesa</title>
+</head>
+<body>
+    <div class="placarGeral">
+        <h1>Placar tênis de mesa</h1>
+    </div>
+    <div class="placar">
+        <div class="esquerda">
+            <div id="setE">0</div>
+            <div id="esquerda" class="white">0</div>
+        </div>
+        <div class="direita">
+            <div id="setD">0</div>
+            <div id="direita">0</div>
+        </div>
+    </div>
+    <div class="opcoes">
+        <div class="left"><button onclick="esquerdaPonto()" class="btn esquerdaPonto">Ponto</button>
+        <button onclick="voltaEsquerda()" class="btn voltaPE">Volta ponto</button></div>
+        <button onclick="voltaDireita()" class="btn voltaPD">Volta ponto</button>
+        <button onclick="direitaPonto()" class="btn direitaP">Ponto</button>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
